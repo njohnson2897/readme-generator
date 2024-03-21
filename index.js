@@ -16,6 +16,7 @@ const questions = [
     'What is your email address?'
 ];
 
+// destructures the questions array to assign each question a variable name
 const [titleMsg, descriptionMsg, installationMsg, usageMsg, 
     contributingMsg, testsMsg, licenseMsg, githubMsg, emailMsg] = questions
 
@@ -29,6 +30,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt([
+// uses the variables from the destructured array above as the message in each prompt
             {
                 type: "input",
                 name: "title",
@@ -63,7 +65,8 @@ function init() {
                 type: "list",
                 name: "license",
                 message: licenseMsg,
-                choices: ["None", "MIT", "Apache License 2.0", "GNU GPL v3", "Mozilla Public License 2.0", "BSD 3-Clause License"]
+                choices: ["None", "MIT", "Apache License 2.0", "GNU GPL v3",
+                 "Mozilla Public License 2.0", "BSD 3-Clause License"]
             }, 
             {
                 type: "input",
@@ -76,6 +79,7 @@ function init() {
                 message: emailMsg,
             },
         ])
+// selects the output folder as the destination of the file and the generateMarkdown function to write the content
         .then((response) => 
             writeToFile('./output/readme.md', generateMarkdown(response)))
 }
