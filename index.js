@@ -77,7 +77,7 @@ function init() {
             },
         ])
         .then((response) => 
-            writeToFile('readme.md', generateMarkdown(response)))
+            writeToFile('./output/readme.md', generateMarkdown(response)))
 }
 
 // Function call to initialize app
