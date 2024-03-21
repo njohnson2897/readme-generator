@@ -4,8 +4,19 @@ const inquirer = require('inquirer')
 
 // TODO: Create an array of questions for user input
 const questions = [
-    ''
+    'What is your project titled?',
+    'What is the description of your project?',
+    'How does one install your project?',
+    'How is your project used?',
+    'Who else contributed to your project?',
+    'How does one test that your project is functioning correctly?',
+    'Which license would you like to attach to your project?',
+    'What is your GitHub username?',
+    'What is your email address?'
 ];
+
+const [titleMsg, descriptionMsg, installationMsg, usageMsg, 
+    contributingMsg, testsMsg, licenseMsg, githubMsg, emailMsg] = questions
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -18,48 +29,48 @@ function init() {
             {
                 type: "input",
                 name: "title",
-                message: "What is your project titled?",
+                message: titleMsg,
             },
             {
                 type: "input",
                 name: "description",
-                message: "What is the description of your project?",
+                message: descriptionMsg,
             },
             {
                 type: "input",
                 name: "installation",
-                message: "How does one install your project?",
+                message: installationMsg,
             },
             {
                 type: "input",
                 name: "usage",
-                message: "How is your project used?",
+                message: usageMsg,
             },
             {
                 type: "input",
                 name: "contributing",
-                message: "Who else contributed to your project?",
+                message: contributingMsg,
             },
             {
                 type: "input",
                 name: "tests",
-                message: "How does one test that your project is functioning correctly?",
+                message: testsMsg,
             },
             {
                 type: "list",
                 name: "license",
-                message: "Which license would you like to attach to your project?",
+                message: licenseMsg,
                 choices: ["None", "MIT"]
             }, 
             {
                 type: "input",
                 name: "github",
-                message: "What is your GitHub username?",
+                message: githubMsg,
             },
             {
                 type: "input",
                 name: "email",
-                message: "What is your email address?",
+                message: emailMsg,
             },
         ])
         .then((response) =>
