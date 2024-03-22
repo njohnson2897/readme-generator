@@ -14,11 +14,16 @@ Following the completion of all of the prompts, a readme file will be generated 
 ![sample generated readme screenshot](./images/sample-generated-readme-screenshot.JPG)
 
 The following is a link to a walkthrough video that demonstrates all of the functionality of the program:
+[Readme Generator Walkthrough Video](https://drive.google.com/file/d/1N0OTUK0_sng83SKRTTgX4Dl_CVm2ezTg/view)
 
 ## Contributing
 N/A
 
 ## Tests
-
+N/A
 
 ## Credits
+
+https://stackoverflow.com/questions/54321161/how-to-write-a-file-to-specific-directory-in-nodejs
+
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba

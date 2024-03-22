@@ -2,7 +2,7 @@
 
   ## License
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
    - [Description](#description)
@@ -13,20 +13,20 @@
    - [Questions](#questions)
 
   ## Description 
-  This is a project designed to generate professional readme files for coding projects.  It is a command line application that takes user responses to prompts and generates a readme file containing those responses.
+  It is a project designed to generate efficient readme files for new coding projects
 
   ## Installation 
-  "npm install" to  install the necessary packages
+  npm install will install the necessary packages to run the project
 
   ## Usage 
-  This project is used to efficiently generate readme files for coding projects without having to spend time creating and editing markdown files manually.
+  It is used to create readme files without having to edit any markdown text
 
   ## Contributing 
   N/A
 
   ## Tests 
-  
+  npm test
 
   ## Questions
-  If you have any questions, please feel free to reach out over [email](mailto:) or check out the project repo on [GitHub](github.com/)
+  If you have any questions, please feel free to reach out over [email](mailto:njohnson2897@gmail.com) or check out the project repo on [GitHub](github.com/njohnson2897)
 
