@@ -1,26 +1,33 @@
-# Readme Generator 
+# A 
 
-  ## Table of Contents:
-    [Description](#Description)
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [Contributing](#Contributing)
-    [Tests](#Tests)
-    [Questions](#Questions)
+  ## Table of Contents
+    [Description](#description)
+    [Installation](#installation)
+    [Usage](#usage)
+    [Contributing](#contributing)
+    [Tests](#tests)
+    [Questions](#questions)
 
-  ## Description: It is a readme generator
+  ## Description 
+  B
 
-  ## Installation: npm install
+  ## Installation 
+  C
 
-  ## Usage: To generate readme files
+  ## Usage 
+  D
 
-  ## Contributing: No one
+  ## Contributing 
+  E
 
-  ## Tests: npm test
+  ## Tests 
+  G
 
-  ## Questions?
-  njohnson2897@gmail.com
-  njohnson2897
+  ## Questions
+  Z
+  T
 
-  ## License:
+  ## License
+
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
