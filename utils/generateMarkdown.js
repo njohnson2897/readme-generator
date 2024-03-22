@@ -47,13 +47,16 @@ function generateMarkdown(data) {
 // generated markdown to be written into the readme file
   return `# ${data.title} 
 
+  ${renderLicenseSection(data)}
+  ${renderLicenseBadge(data)}
+
   ## Table of Contents
-    [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Questions](#questions)
+   - [Description](#description)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contributing](#contributing)
+   - [Tests](#tests)
+   - [Questions](#questions)
 
   ## Description 
   ${data.description}
@@ -71,11 +74,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.email}
-  ${data.github}
-
-  ${renderLicenseSection(data)}
-  ${renderLicenseBadge(data)}
+  If you have any questions, please feel free to reach out over [email](mailto:${data.email}) or check out the project repo on [GitHub](github.com/${data.github})
 
 `;
 }
