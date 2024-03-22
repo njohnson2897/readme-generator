@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// source of links for license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 function renderLicenseBadge(data) {
   if (data.license === "MIT") {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
@@ -18,18 +19,10 @@ function renderLicenseBadge(data) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 // function renderLicenseLink(license) {
-//   if (data.license === "MIT") {
 
-//   } else if (data.license === "Apache License 2.0") {
+// The links that I found above provide both the link and the badge in the same element, so this function isn't necessary
 
-//   } else if (data.license === "BSD 3-Clause License") {
-    
-//   } else if (data.license === "GNU GPL v3") {
-    
-//   } else if (data.license === "Mozilla Public License 2.0") {
-//     return 
-//   }
-// };
+
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 // either creates the License section in markdown format or creates nothing if the user chose "none" for license
